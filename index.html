@@ -1,10 +1,4 @@
-<?php
-session_start();
-if(!isset($_SESSION['name'])) {
-    $_SESSION['name'] = $_POST['name'];
-}
 
-?>
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -14,7 +8,7 @@ if(!isset($_SESSION['name'])) {
 
 </head>
 <body>
-<form action="index-post.php" id="signin" method="post">
+<form action="index.php" id="signin" method="post">
     <fieldset>
         <p><img src="img/banner.png" width="521" height="346" alt="Super Hitori Banner"></p>
         <p>Welcome to Super Hitori</p>
