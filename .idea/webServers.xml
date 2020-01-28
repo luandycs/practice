@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="39d1050a-7ecc-4c7f-9013-5c25c354c3aa" name="webdev-exam" url="http://arctic.cse.msu.edu">
+        <fileTransfer host="arctic.cse.msu.edu" port="22" rootFolder="/user/luandy1/classweb/exam" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
